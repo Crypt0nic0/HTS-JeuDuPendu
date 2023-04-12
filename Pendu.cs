@@ -4,9 +4,33 @@ namespace JeuDuPendu
 {
     public class Pendu
     {
-        int NbEssaiMax = 10;
-        int NbEssai = 0;
+        private List<string> mots = new List<string>
+        {
+            "souris",
+            "maison",
+            "ouragan",
+            "vacances",
+            "chameau",
+            "chalumeau",
+            "piano",
+            "ordinateur"
+        };
+        private const int NbEssaiMax = 7;
+        private int NbEssai;
 
+        public List<char> LettresTestees { get; } = new List<char>();
+        public string MotATrouver { get; private set; }
+        public string MotCourant { get; private set; }
+
+        public bool GagneOuPerdu()
+        {
+            return false;
+        }
+
+        public void TesterLettre(char c)
+        {
+
+        }
 
         public void AfficherPendu()
         {
