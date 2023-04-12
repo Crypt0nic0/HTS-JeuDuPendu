@@ -1,0 +1,15 @@
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/bin/Debug/net7.0/JeuDuPendu
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/bin/Debug/net7.0/JeuDuPendu.deps.json
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/bin/Debug/net7.0/JeuDuPendu.runtimeconfig.json
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/bin/Debug/net7.0/JeuDuPendu.dll
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/bin/Debug/net7.0/JeuDuPendu.pdb
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.csproj.AssemblyReference.cache
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.AssemblyInfoInputs.cache
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.AssemblyInfo.cs
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.csproj.CoreCompileInputs.cache
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.dll
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/refint/JeuDuPendu.dll
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.pdb
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/JeuDuPendu.genruntimeconfig.cache
+/Users/ngdev/NGDEV/DotNet/JeuDuPendu/obj/Debug/net7.0/ref/JeuDuPendu.dll
