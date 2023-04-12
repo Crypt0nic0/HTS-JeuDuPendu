@@ -22,14 +22,46 @@ namespace JeuDuPendu
         public string MotATrouver { get; private set; }
         public string MotCourant { get; private set; }
 
+        public Pendu()
+        {
+            var r = new Random();
+            var idx = r.Next(8);
+
+            MotATrouver = mots[idx];
+            MotCourant = string.Concat(Enumerable.Repeat("-", MotATrouver.Length));
+        }
+
         public bool GagneOuPerdu()
         {
-            return false;
+            return MotCourant == MotATrouver || NbEssai >= NbEssaiMax;
         }
 
         public void TesterLettre(char c)
         {
-
+            if (LettresTestees.Contains(c))
+            {
+                return;
+            }
+            LettresTestees.Add(c);
+            var copie = MotCourant.ToArray();
+            bool trouve = false;
+            for (int i = 0; i < MotATrouver.Length; i++)
+            {
+                var car = MotATrouver[i];
+                if (car == c)
+                {
+                    copie[i] = c;
+                    trouve = true;
+                }
+            }
+            if (trouve)
+            {
+                MotCourant = new string(copie);
+            }
+            else
+            {
+                NbEssai++;
+            }
         }
 
         public void AfficherPendu()
